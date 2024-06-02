@@ -1,3 +1,10 @@
+from matplotlib import pyplot as plt
+
+__all__ = [
+    'mpl_tick_frame', 
+]
+
+
 def mpl_tick_frame(ax=None, minorticks=True, tick_fontsize=None):
     if ax is None:
         ax = plt.gca()
